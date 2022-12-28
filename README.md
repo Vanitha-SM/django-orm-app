@@ -11,19 +11,44 @@ Include your ER diagram here
 
 ### STEP 1:
 
+
+
 ### STEP 2:
 
 ### STEP 3:
 
 Write your own steps
 
-## PROGRAM
+## PROGRAM  
 
-Include your code here
+In admin.py
+
+from django.contrib import admin
+from .models import Employee,EmployeeAdmin
+
+
+admin.site.register(Employee,EmployeeAdmin)
+
+from django.db import models
+from django.contrib import admin
+
+
+class Employee(models.Model):
+    emp_id=models.CharField(primary_key=True,max_length=4,help_text="Employee ID")
+    ename=models.CharField(max_length=50)
+    post=models.CharField(max_length=20)
+    salary=models.IntegerField()
+    age=models.IntegerField()
+    
+In models.py
+
+class EmployeeAdmin(admin.ModelAdmin):
+    list_display=('emp_id','ename','post','salary','age')
+    
 
 ## OUTPUT
 
-Include the screenshot of your admin page.
+![django-orm-app](."C:\Users\SEC\Pictures\Screenshots\django-orm-app.png")
 
 
 ## RESULT
