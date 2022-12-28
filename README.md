@@ -48,7 +48,7 @@ class EmployeeAdmin(admin.ModelAdmin):
 
 ## OUTPUT
 
-![django-orm-app](."C:\Users\SEC\Pictures\Screenshots\django-orm-app.png")
+![django-orm-app](./django-orm-app.png")
 
 
 ## RESULT
