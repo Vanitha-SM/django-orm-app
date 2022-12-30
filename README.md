@@ -63,3 +63,6 @@ class EmployeeAdmin(admin.ModelAdmin):
 
 
 ## RESULT
+   
+   We have developed a django application and data is stored and retrieved from a database using Object Relational Mapping(ORM).
+   
