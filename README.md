@@ -11,13 +11,21 @@ Include your ER diagram here
 
 ### STEP 1:
 
-
+    * Using theia ID, git clone the repository 
+    * Start my app and run the server
+    
 
 ### STEP 2:
 
+    * Create the required tables in myapp 
+    * Make migrations and create super user
+    
+
 ### STEP 3:
 
-Write your own steps
+    * Add the records under the employee table
+    * A field must be made as a primary key
+
 
 ## PROGRAM  
 
@@ -48,7 +56,9 @@ class EmployeeAdmin(admin.ModelAdmin):
 
 ## OUTPUT
 
-![django-orm-app](./django-orm-app.png")
+![django-orm-app](images/django-orm-app.png)
+
+![primarykeyerror](images/primarykeyerror.png)
 
 
 ## RESULT
